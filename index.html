@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How DSH Local Dispatcher uses Gmail and Google Calendar on a Windows PC.">
+  <title>DSH Local Dispatcher</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell nav">
+      <a class="brand" href="./" aria-current="page">DSH Local Dispatcher</a>
+      <a href="privacy.html">Privacy policy</a>
+    </div>
+  </header>
+  <main class="shell">
+    <h1>DSH Local Dispatcher</h1>
+    <p class="intro">Read Gmail and Google Calendar in the Local Dispatcher preset of DeepSeek Harness on a Windows PC.</p>
+    <section aria-labelledby="access">
+      <h2 id="access">Why it requests Google access</h2>
+      <dl class="services">
+        <div>
+          <dt>Gmail</dt>
+          <dd>Find and summarize messages and threads the user asks about.</dd>
+        </div>
+        <div>
+          <dt>Google Calendar</dt>
+          <dd>Read calendars and events to answer scheduling and availability questions.</dd>
+        </div>
+      </dl>
+      <p>The desktop integration uses the Google Workspace CLI. The initial connection requests read-only access to both services. The user signs in and approves access through Google.</p>
+    </section>
+    <section aria-labelledby="local">
+      <h2 id="local">Where the work runs</h2>
+      <p>Local Dispatcher processes connected-account results with its local model. This website provides information about the integration and its data handling.</p>
+      <p><a href="privacy.html">Read the privacy policy</a></p>
+    </section>
+  </main>
+</body>
+</html>

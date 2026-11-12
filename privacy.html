@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for the DSH Local Dispatcher Gmail and Google Calendar integration.">
+  <title>Privacy policy | DSH Local Dispatcher</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell nav">
+      <a class="brand" href="./">DSH Local Dispatcher</a>
+      <a href="privacy.html" aria-current="page">Privacy policy</a>
+    </div>
+  </header>
+  <main class="shell policy">
+    <h1>Privacy policy</h1>
+    <p class="updated">November 11, 2026</p>
+    <p>This policy applies to the Gmail and Google Calendar integration in DSH Local Dispatcher.</p>
+    <h2>Data access and use</h2>
+    <p>Google asks the user to approve the requested permissions. With the initial read-only permissions, the integration can retrieve Gmail messages, thread content, labels and related metadata, and calendar and event details such as titles, times, and availability. It retrieves Google data to answer the user's requested email or calendar task.</p>
+    <h2>Processing and sharing</h2>
+    <p>The Google Workspace CLI communicates with Google to retrieve the requested data. The Local Dispatcher preset is configured to keep connected-account results with the local Strata model and to delegate only public or synthetic material to cloud workers. The integration uses Google data for the requested features and does not sell it or use it for advertising or model training. This informational website does not handle the desktop sign-in or receive Gmail or Calendar results.</p>
+    <p>The use of information received from Google Workspace APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+    <h2>Storage and deletion</h2>
+    <p>The CLI keeps its Google authorization locally and protects saved credentials through its local credential storage. DSH can retain requests and tool results in its local session history. Files the user chooses to save remain at their selected locations. To remove those copies, delete the relevant DSH sessions and saved files on the PC.</p>
+    <p>Use <a href="https://myaccount.google.com/connections">Google Account connections</a> to revoke the integration's access. Use <code>gws auth logout</code> with the Local Dispatcher Google Workspace configuration to remove the CLI's local authorization. Revocation and local file deletion are separate actions.</p>
+    <h2>Questions and changes</h2>
+    <p>For questions, use the support email shown on the Google consent screen. If the integration changes its use of Google data, this policy will be updated and the user will be asked to consent before the new use begins.</p>
+  </main>
+</body>
+</html>
